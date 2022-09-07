@@ -10,6 +10,12 @@ module.exports = {
           configName: 'foo',
           queryString: 'api::foo.foo',
           uid: 'name',
+          relations: [{
+            queryString: 'api::bar.bar',
+            relationName: 'bars',
+            parentName: 'foo',
+            relationSortFields: ['name'],
+          }],
         },
       ],
       excludedTypes: [],
