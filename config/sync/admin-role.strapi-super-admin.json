@@ -8,8 +8,7 @@
       "subject": "api::bar.bar",
       "properties": {
         "fields": [
-          "name",
-          "foo"
+          "name"
         ]
       },
       "conditions": []
@@ -25,8 +24,7 @@
       "subject": "api::bar.bar",
       "properties": {
         "fields": [
-          "name",
-          "foo"
+          "name"
         ]
       },
       "conditions": []
@@ -36,8 +34,7 @@
       "subject": "api::bar.bar",
       "properties": {
         "fields": [
-          "name",
-          "foo"
+          "name"
         ]
       },
       "conditions": []

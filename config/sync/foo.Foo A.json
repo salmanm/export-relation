@@ -1,0 +1,8 @@
+{
+  "name": "Foo A",
+  "bars": [
+    {
+      "name": "Bar B"
+    }
+  ]
+}
