@@ -1551,7 +1551,9 @@
       "pluginOptions": {},
       "attributes": {
         "name": {
-          "type": "string"
+          "type": "string",
+          "unique": true,
+          "required": true
         },
         "createdAt": {
           "type": "datetime"
@@ -1594,7 +1596,9 @@
         "pluginOptions": {},
         "attributes": {
           "name": {
-            "type": "string"
+            "type": "string",
+            "unique": true,
+            "required": true
           }
         },
         "kind": "collectionType"
@@ -1623,7 +1627,9 @@
       "pluginOptions": {},
       "attributes": {
         "name": {
-          "type": "string"
+          "type": "string",
+          "required": true,
+          "unique": true
         },
         "bars": {
           "type": "relation",
@@ -1671,7 +1677,9 @@
         "pluginOptions": {},
         "attributes": {
           "name": {
-            "type": "string"
+            "type": "string",
+            "required": true,
+            "unique": true
           },
           "bars": {
             "type": "relation",
