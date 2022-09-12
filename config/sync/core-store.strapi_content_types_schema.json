@@ -1552,6 +1552,12 @@
         "name": {
           "type": "string"
         },
+        "foo": {
+          "type": "relation",
+          "relation": "manyToOne",
+          "target": "api::foo.foo",
+          "inversedBy": "bars"
+        },
         "createdAt": {
           "type": "datetime"
         },
@@ -1593,6 +1599,12 @@
         "attributes": {
           "name": {
             "type": "string"
+          },
+          "foo": {
+            "type": "relation",
+            "relation": "manyToOne",
+            "target": "api::foo.foo",
+            "inversedBy": "bars"
           }
         },
         "kind": "collectionType"

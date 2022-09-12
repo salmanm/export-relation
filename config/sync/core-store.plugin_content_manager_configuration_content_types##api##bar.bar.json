@@ -34,6 +34,21 @@
           "sortable": true
         }
       },
+      "foo": {
+        "edit": {
+          "label": "foo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "foo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -70,7 +85,6 @@
         "createdAt",
         "updatedAt"
       ],
-      "editRelations": [],
       "edit": [
         [
           {
@@ -78,6 +92,9 @@
             "size": 6
           }
         ]
+      ],
+      "editRelations": [
+        "foo"
       ]
     }
   },

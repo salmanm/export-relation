@@ -1,3 +1,4 @@
+Error.stackTraceLimit = 9999
 module.exports = {
   'config-sync': {
     enabled: true,

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "bar",
     "pluralName": "bars",
-    "displayName": "Bar"
+    "displayName": "Bar",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
