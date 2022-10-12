@@ -4,9 +4,6 @@
   "type": "public",
   "permissions": [
     {
-      "action": "api::bar.bar.find"
-    },
-    {
       "action": "plugin::users-permissions.auth.callback"
     },
     {

@@ -79,6 +79,12 @@
       "conditions": []
     },
     {
+      "action": "admin::api-tokens.access",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
       "action": "admin::api-tokens.create",
       "subject": null,
       "properties": {},
@@ -92,6 +98,12 @@
     },
     {
       "action": "admin::api-tokens.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.regenerate",
       "subject": null,
       "properties": {},
       "conditions": []

@@ -1,11 +1,3 @@
 {
-  "name": "Foo C",
-  "bars": [
-    {
-      "name": "Bar A"
-    },
-    {
-      "name": "Bar B"
-    }
-  ]
+  "name": "Foo C"
 }

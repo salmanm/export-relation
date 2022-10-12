@@ -10,9 +10,9 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.3.6",
-    "@strapi/plugin-users-permissions": "4.3.6",
-    "@strapi/strapi": "4.3.6",
+    "@strapi/plugin-i18n": "4.4.3",
+    "@strapi/plugin-users-permissions": "4.4.3",
+    "@strapi/strapi": "4.4.3",
     "pg": "8.6.0",
     "strapi-plugin-config-sync": "^1.0.4"
   },
